@@ -743,8 +743,8 @@ export default function App() {
               <div className="photo-frame">
                 <div className="photo-inner">
                   {/* REPLACE: change false → true and set src="/images/profile.jpg" */}
-                  {false ? (
-                    <img src="/images/profile.jpg" alt="Jeremiah Dixon" />
+                  {true ? (
+                    <img src="/public/images/about_me.jpg" alt="Jeremiah Dixon" />
                   ) : (
                     <div className="photo-placeholder">
                       <span>👤</span>
