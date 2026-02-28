@@ -744,7 +744,7 @@ export default function App() {
                 <div className="photo-inner">
                   {/* REPLACE: change false → true and set src="/images/profile.jpg" */}
                   {true ? (
-                    <img src="/public/images/about_me.jpg" alt="Jeremiah Dixon" />
+                    <img src="/images/about_me.jpg" alt="Jeremiah Dixon" />
                   ) : (
                     <div className="photo-placeholder">
                       <span>👤</span>
